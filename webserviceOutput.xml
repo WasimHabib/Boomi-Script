@@ -1,0 +1,30 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soapenv:Body>
+      <ns1:getTransactionResponse xmlns:ns1="webervicehost/webserviceName" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+         <getTransactionReturn xmlns:ns2="urn:ProductName" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" soapenc:arrayType="ns2:webservicename[1]" xsi:type="soapenc:Array">
+            <getTransactionReturn href="#id0"></getTransactionReturn>
+			<getTransactionReturn href="#id1"></getTransactionReturn>
+         </getTransactionReturn>
+      </ns1:getTransactionResponse>
+      <multiRef xmlns:ns3="urn:LogaServant.soapService.PIAG.com" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id0" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns3:webserviceNameBean">
+         <historyPeriodAb xsi:type="xsd:string">2016-04-21</historyPeriodAb>
+         <historyPeriodBis xsi:type="xsd:string">2099-01-31</historyPeriodBis>
+         <vbkontgr xsi:type="xsd:string">S_180065</vbkontgr>
+         <vburlg xsi:type="xsd:string">0</vburlg>
+         <vbutsgrp xsi:type="xsd:string">ALLE</vbutsgrp>
+         <vbutstrf xsi:type="xsd:string">URLA</vbutstrf>
+         <vertnr xsi:type="xsd:integer">1</vertnr>
+         <veruverf xsi:nil="true" xsi:type="xsd:string"></veruverf>
+      </multiRef>
+	  <multiRef xmlns:ns3="urn:LogaServant.soapService.PIAG.com" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" id="id1" soapenc:root="0" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns3:webserviceNameBean">
+         <historyPeriodAb xsi:type="xsd:string">2016-04-21</historyPeriodAb>
+         <historyPeriodBis xsi:type="xsd:string">2099-01-31</historyPeriodBis>
+         <vbkontgr xsi:type="xsd:string">S_180065</vbkontgr>
+         <vburlg xsi:type="xsd:string">0</vburlg>
+         <vbutsgrp xsi:type="xsd:string">ALLE</vbutsgrp>
+         <vbutstrf xsi:type="xsd:string">URLA</vbutstrf>
+         <vertnr xsi:type="xsd:integer">1</vertnr>
+         <veruverf xsi:nil="true" xsi:type="xsd:string"></veruverf>
+      </multiRef>
+   </soapenv:Body>
+</soapenv:Envelope>
